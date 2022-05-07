@@ -6,7 +6,7 @@ import '../HomePage/styles.css'
 
 
 
-const HomePage = () => {
+const ConsultasPage = () => {
     const { logout } = useContext(AuthContext);
     const handleLogout = () => {
         logout();
@@ -38,9 +38,9 @@ const HomePage = () => {
        </div>
      </ul>
    </nav>
-   <h1>tela home</h1>
+   <h1>Tela de consultas</h1>
     </>
     );
 
 };
-export default HomePage;
+export default ConsultasPage;

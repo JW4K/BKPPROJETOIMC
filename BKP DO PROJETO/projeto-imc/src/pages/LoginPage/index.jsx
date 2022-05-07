@@ -1,8 +1,7 @@
 import React, {useState, useContext} from 'react';
 
 import { AuthContext  } from '../../contexts/auth';
-import './styles.css'
-// import 'bootstrap/dist/css/bootstrap.min.css';  className="shadow p-3 mb-5 bg-white rounded"
+import '../LoginPage/styles.css'
 const LoginPage = () => {
     const { authenticated, logar} = useContext(AuthContext);
     const [login, setLogin] = useState("");
